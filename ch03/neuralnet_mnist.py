@@ -1,8 +1,8 @@
 # coding: utf-8
 import sys, os
-sys.path.append(os.pardir)  # 부모 디렉터리의 파일을 가져올 수 있도록 설정
+sys.path.append("/Users/user/Desktop/deepLearning")
 import numpy as np
-import pickle
+import pickle # 실행 당시 객체를 파일로 저장
 from dataset.mnist import load_mnist
 from common.functions import sigmoid, softmax
 
